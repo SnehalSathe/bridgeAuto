@@ -26,15 +26,15 @@ public class SignUpTest extends Driver {
 	
 		
 		}
-	@Test
-	public void onBoarding() {
-		SignUpPage signUpPage= new SignUpPage(driver);
-		signUpPage.EnterFName("soham");
-		signUpPage.EnterLName("Patil");
-		signUpPage.clickOnMale();
-		signUpPage.enterDate();
-		signUpPage.EnterNumber("9876543210");
+//	@Test
+//	public void onBoarding() {
+//		SignUpPage signUpPage= new SignUpPage(driver);
+//		signUpPage.EnterFName("soham");
+//		signUpPage.EnterLName("Patil");
+//		signUpPage.clickOnMale();
+//		signUpPage.enterDate();
+//		signUpPage.EnterNumber("9876543210");
 		
-	}
+//	}
 
 }

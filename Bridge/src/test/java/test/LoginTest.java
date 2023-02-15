@@ -3,12 +3,10 @@ package test;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-
 import pom.LoginPage;
 import pom.ServicePage;
 import utility.BaseClass;
 import utility.Driver;
-
 
 public class LoginTest extends Driver {
 	@BeforeTest
@@ -27,8 +25,9 @@ public class LoginTest extends Driver {
 		login.clickOnContinue();
 		}
 	@Test
-	public void addService() {
+	public void addService() throws InterruptedException {
 		ServicePage servicepage= new ServicePage(driver);
+		Thread.sleep(2000);
 		servicepage.clickOnMiscellaneous();
 	}
 	
